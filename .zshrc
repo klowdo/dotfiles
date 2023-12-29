@@ -128,6 +128,7 @@ export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:$HOME/.cargo/env
 alias dive="docker run -ti --rm  -v /var/run/docker.sock:/var/run/docker.sock wagoodman/dive"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+alias lgconfig='lazygit --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 # LAZYGIT
 lg()
